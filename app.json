@@ -1,0 +1,58 @@
+{
+  "expo": {
+    "name": "Rüya Tabirleri",
+    "slug": "ruya-tabirleri",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "ruya-tabirleri",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ruyatabirleri.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.ruyatabirleri.app"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-speech"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "description": "Türkçe Rüya Tabirleri Sözlüğü - AI Destekli Rüya Yorumu, Sesli Arama ve Detaylı İçerik",
+    "keywords": [
+      "rüya",
+      "tabir",
+      "yorum",
+      "türkçe",
+      "sözlük",
+      "yapay zeka",
+      "sesli arama",
+      "tts"
+    ],
+    "author": "AI Assistant",
+    "homepage": "https://github.com/ruya-tabirleri",
+    "repository": "https://github.com/ruya-tabirleri/ruya-tabirleri",
+    "bugs": "https://github.com/ruya-tabirleri/ruya-tabirleri/issues",
+    "license": "MIT"
+  }
+}
